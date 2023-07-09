@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #fbfbfb;
+    font-family: 'Lato', sans-serif;
+}
+ul {
+    list-style: none;
+    }
+
+
+/* Aca dejo los estilos que aplico en el header*/
+header
+    {height: 90px;
+    width: 100%;
+    padding: 16px;
+    position: fixed;
+    top: 0%;
+    }
+#logo 
+    {width: 10%; 
+    align-items: center; 
+    }
+#menu 
+    {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    padding-bottom: 5%; 
+    text-decoration: none;
+    color: inherit;
+    }
+
+/* Aca dejo los estilos que aplico en el main */
+    
+#inicio
+{min-height: 100vh;
+    padding-top: 20%;
+    padding-bottom: 40%;
+    display: flex;    
+    flex-direction: column;    
+    align-items: center; 
+}
+        figure
+        {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 50%;
+            text-align: center;
+            display: block;
+        }
+        h1 
+        {
+        display:flex; 
+        justify-content: center;
+        font-size: 36px;
+        font-family: 'Lato', sans-serif;
+        }
+        .churro 
+        {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        line-height: 1,2; 
+        justify-content: center;
+        padding-bottom: 10px;
+        }
+        #cv
+        {
+        color: #fbfbfb;
+        background-color: #af599e; 
+        padding: 20px; 
+        margin: 0 auto;
+        width: 40%;
+        height: 40%;
+        border-radius: 30px;             
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        display: flex;    flex-direction: column;    align-items: center; 
+
+        }
+
+#contacto 
+{min-height: 100vh; 
+}
+    
+        h2 {
+            font-size: 28px;
+            font-family: 'Lato', sans-serif;
+            background-color: rgba(175, 89, 158, 0.3);
+            text-align: center;
+        }
+        #pcontact {
+            background-color: rgba(175, 89, 158, 0.3);
+            text-align: center;
+            color: 0f0f0f; 
+            font-size: 18px;
+            font-family: 'Lato', sans-serif; 
+        }
+
+    #iconos
+        {   display: flex;
+            flex: auto;
+            margin-top: 10px;
+        }
+        .icnosli
+        {
+            width: 20px;;
+            flex: block;
+            flex-direction: row;
+            justify-content: space-around;}
+
+    /* Aca dejo los estilos que aplico en el footer */
+footer 
+{
+    background-color: #7e747c;
+    height: 90px;
+    display: flex;
+    justify-content: center;    
+    color: #fbfbfb;
+    padding: 39px; 
+}
+
+
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
